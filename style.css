@@ -75,6 +75,7 @@ h2{
 .footer p{
     font-size: 24px;
     margin-top: 15px;
+    visibility: hidden;
 }
 
 .footer button{
@@ -84,6 +85,7 @@ h2{
     background-color: #f9e4c8;
     border-radius: 3px;
     border: 2px black solid;
+    cursor: pointer;
 }
 
 .footer button:hover{
