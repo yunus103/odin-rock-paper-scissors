@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="header">
+        <h1>Welcome</h1>
+        <p>First one to win 5 rounds wins the game.</p>
+    </div>
+
+    <div class="game-container">
+        <div class="head"><h2>Choose one:</h2></div>
+
+        <div class="options">
+            <button class="game-button" id="rock-button"><img src="images/rock.png" alt=""></button>
+            <button class="game-button" id="paper-button"><img src="images/paper.png" alt=""></button>
+            <button class="game-button" id="scissors-button"><img src="images/scissors.png" alt=""></button>
+        </div>
+
+        <div class="score">
+            <h2>You: <span id="your-score">0</span> Computer: <span id="computer-score">0</span></h2>
+        </div>
+
+        <div class="footer">
+            <button class="reset" id="reset">Reset Game</button>
+            <p id="result-text">You Win!</p>
+        </div>
+    </div>
 
 
 

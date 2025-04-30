@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(168, 160, 95);
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.game-container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.options{
+    margin-top: 30px;
+}
+
+.game-button{
+    margin: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.game-button img{
+    width: 100%;
+    height: 100%;
+    transition: filter 0.2s ease;
+}
+
+.game-button:active{
+    filter: brightness(0.85);
+    transform: scale(0.97);
+}
+
+.game-button:hover img {
+    filter: brightness(1.1);
+}
+
+.score{
+    margin: 20px 0;
+}
+
+.footer p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.footer button{
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f9e4c8;
+    border-radius: 3px;
+    border: 2px black solid;
+}
+
+.footer button:hover{
+    background-color: #f2cfa3;
+}
+
+.footer button:active{
+    background-color: #e6d5bb;
+}
